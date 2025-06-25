@@ -1,7 +1,7 @@
 import { expect } from "@oclif/test";
 import { CommandHistory } from "../src/cmd-history";
 import { ShellCommand, CommandToRun } from "../src/shell-cmd";
-import { Helpers } from "m30pm-lib-common"
+import { Helpers } from "@mach30/m30pm-lib-common"
 import exp from "constants";
 
 describe("Test CommandHistory class", () => {

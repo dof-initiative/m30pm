@@ -2,7 +2,7 @@ import { expect } from "@oclif/test";
 import { ToolInfo } from '../src/tool-info'
 import { CommandHistory } from '../src/cmd-history'
 import { ShellCommand, CommandToRun } from "../src/shell-cmd";
-import { Helpers } from "m30pm-lib-common";
+import { Helpers } from "@mach30/m30pm-lib-common";
 
 describe("m30pm-lib-fs TestTool tests", () => {
     it('should return false, "", and "" for foo', () => {
