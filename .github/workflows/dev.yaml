@@ -37,6 +37,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install nodejs & npm
+        run: sudo apt install nodejs && sudo apt install npm
+
       - name: Install oclif CLI
         run: npm install -g oclif
 
