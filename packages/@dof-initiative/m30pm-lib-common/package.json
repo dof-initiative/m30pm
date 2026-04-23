@@ -1,5 +1,5 @@
 {
-  "name": "@mach30/m30pm-lib-common",
+  "name": "@dof-initiative/m30pm-lib-common",
   "version": "0.1.1",
   "description": "Mach 30 PM common functions library",
   "main": "dist/index.js",
@@ -14,12 +14,12 @@
     "tsdoc": "tsdoc --src=./src/*"
   },
   "author": "Mach 30",
-  "homepage": "https://github.com/Mach30/m30pm/tree/main/packages/@mach30/m30pm-lib-common",
+  "homepage": "https://github.com/dof-initiative/m30pm/tree/main/packages/@dof-initiative/m30pm-lib-common",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mach30/m30pm.git",
-    "directory": "packages/@mach30/m30pm-lib-common"
+    "url": "git+https://github.com/dof-initiative/m30pm.git",
+    "directory": "packages/@dof-initiative/m30pm-lib-common"
   },
   "devDependencies": {
     "@oclif/test": "^3",

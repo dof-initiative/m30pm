@@ -2,9 +2,7 @@ import { expect } from "@oclif/test";
 import { CommandHistoryLogger, FunctionArgument, FunctionInfo } from "../src/cmd-history-logger";
 import { CommandHistory } from "../src/cmd-history";
 import { getShell, ShellCommand, CommandToRun } from "../src/shell-cmd";
-import { LogLevels } from "@mach30/m30pm-lib-common";
-import { Helpers } from "@mach30/m30pm-lib-common"
-import { ProjectConfiguration, BuiltinViews, ViewRenderer, QueryRunner } from "@mach30/m30pm-lib-common";
+import { Helpers, LogLevels, ProjectConfiguration, BuiltinViews, QueryRunner } from "@dof-initiative/m30pm-lib-common";
 import * as fs from 'fs';
 import path from 'path';
 

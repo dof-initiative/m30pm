@@ -1,9 +1,7 @@
 import { expect } from "@oclif/test";
 import { initializeProjectDirectory, generatePackageManagerScaffolding, initializeBuildTool, initializeVersionControlTool, getVctNextStep } from "../src/projects"
-import { Helpers } from "@mach30/m30pm-lib-common";
 import { getShell } from "../src/shell-cmd"
-import { ProjectConfiguration } from "@mach30/m30pm-lib-common";
-import { VersionControlTools } from "@mach30/m30pm-lib-common";
+import { ProjectConfiguration, Helpers, VersionControlTools } from "@dof-initiative/m30pm-lib-common";
 
 describe("m30pm-lib-fs initializeProjectDirectory() tests", () => {
     it('should return true for my-project when directory does not exist', () => {

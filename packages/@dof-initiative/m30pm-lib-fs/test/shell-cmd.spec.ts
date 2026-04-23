@@ -1,6 +1,6 @@
 import { expect } from "@oclif/test";
 import { ShellCommand, CommandToRun, getShell } from "../src/shell-cmd";
-import { Helpers } from "@mach30/m30pm-lib-common"
+import { Helpers } from "@dof-initiative/m30pm-lib-common"
 import { ShellString } from "shelljs";
 import exp from "constants";
 

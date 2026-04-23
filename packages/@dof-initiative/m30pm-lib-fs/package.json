@@ -1,5 +1,5 @@
 {
-  "name": "@mach30/m30pm-lib-fs",
+  "name": "@dof-initiative/m30pm-lib-fs",
   "version": "0.1.1",
   "description": "Mach 30 PM filesystem implementation library",
   "main": "dist/index.js",
@@ -14,15 +14,15 @@
     "tsdoc": "tsdoc --src=./src/*"
   },
   "author": "Mach 30",
-  "homepage": "https://github.com/Mach30/m30pm/tree/main/packages/@mach30/m30pm-lib-fs",
+  "homepage": "https://github.com/dof-initiative/m30pm/tree/main/packages/@dof-initiative/m30pm-lib-fs",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mach30/m30pm.git",
-    "directory": "packages/@mach30/m30pm-lib-fs"
+    "url": "git+https://github.com/dof-initiative/m30pm.git",
+    "directory": "packages/@dof-initiative/m30pm-lib-fs"
   },
   "dependencies": {
-    "@mach30/m30pm-lib-common": "^0.1.1",
+    "@dof-initiative/m30pm-lib-common": "^0.1.1",
     "@types/shelljs": "^0.8.15",
     "js-yaml": "^4.1.0",
     "moment": "^2.30.1",

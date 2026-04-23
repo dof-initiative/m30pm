@@ -1,5 +1,5 @@
 {
-  "name": "@mach30/m30pm-lib-cli",
+  "name": "@dof-initiative/m30pm-lib-cli",
   "version": "0.1.1",
   "description": "Common functions for m30pm CLI application",
   "type": "module",
@@ -16,12 +16,12 @@
     "tsdoc": "tsdoc --src=./src/*"
   },
   "author": "Mach 30",
-  "homepage": "https://github.com/Mach30/m30pm/tree/main/packages/@mach30/m30pm-lib-cli",
+  "homepage": "https://github.com/dof-initiative/m30pm/tree/main/packages/@dof-initiative/m30pm-lib-cli",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mach30/m30pm.git",
-    "directory": "packages/@mach30/m30pm-lib-cli"
+    "url": "git+https://github.com/dof-initiative/m30pm.git",
+    "directory": "packages/@dof-initiative/m30pm-lib-cli"
   },
   "devDependencies": {
     "@oclif/test": "^3",
@@ -38,6 +38,7 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@dof-initiative/m30pm-lib-common": "^0.1.1",
     "@types/marked-terminal": "^6.1.1",
     "ansicolors": "^0.3.2",
     "chalk": "^5.3.0",
