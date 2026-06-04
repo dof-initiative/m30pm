@@ -42,9 +42,7 @@ jobs:
         run: sudo npm install -g oclif
 
       - name: Build or Publish # as per https://stackoverflow.com/questions/59882715/use-environment-variable-in-github-action-if
-        env:
-          auth_token: ${{ secrets.NPM_AUTH_TOKEN }}
-        run: | # login with authToken as per https://stackoverflow.com/a/58271202
+        run: | 
           GIT_REF_COMMIT=$(git rev-list -n 1 $GITHUB_REF)
           GIT_MAIN_COMMIT=$(git rev-list -n 1 refs/remotes/origin/main)
           BASENAME=$(basename "$GITHUB_REF") # The only line you need
