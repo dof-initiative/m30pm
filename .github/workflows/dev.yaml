@@ -40,6 +40,9 @@ jobs:
       - name: Install nodejs & npm
         run: sudo apt install nodejs && sudo apt install npm
 
+      - name: Update npm
+        run: npm install -g npm@11.16.0  
+
       - name: Install oclif CLI
         run: npm install -g oclif
 

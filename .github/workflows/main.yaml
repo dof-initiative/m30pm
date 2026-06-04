@@ -39,6 +39,9 @@ jobs:
       - name: Install nodejs & npm
         run: sudo apt install nodejs && sudo apt install npm
 
+      - name: Update nodejs & npm
+        run: npm install -g npm@11.16.0  
+
       - name: Install yq # as per https://github.com/mikefarah/yq#plain-binary
         run: sudo wget https://github.com/mikefarah/yq/releases/download/v4.35.1/yq_linux_amd64 -O /usr/bin/yq && sudo chmod +x /usr/bin/yq
 
