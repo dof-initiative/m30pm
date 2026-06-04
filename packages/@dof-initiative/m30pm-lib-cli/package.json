@@ -1,6 +1,6 @@
 {
   "name": "@dof-initiative/m30pm-lib-cli",
-  "version": "0.1.1",
+  "version": "0.2.0-alpha.0",
   "description": "Common functions for m30pm CLI application",
   "type": "module",
   "main": "",
@@ -38,7 +38,7 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "@dof-initiative/m30pm-lib-common": "^0.1.1",
+    "@dof-initiative/m30pm-lib-common": "^0.2.0-alpha.0",
     "@types/marked-terminal": "^6.1.1",
     "ansicolors": "^0.3.2",
     "chalk": "^5.3.0",
