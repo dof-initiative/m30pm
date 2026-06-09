@@ -16,7 +16,7 @@ $ npm install -g m30pm
 $ m30pm COMMAND
 running command...
 $ m30pm (--version)
-m30pm/0.2.0-alpha.9 linux-x64 node-v25.9.0
+m30pm/0.2.0-alpha.10 linux-x64 node-v25.9.0
 $ m30pm --help [COMMAND]
 USAGE
   $ m30pm COMMAND
@@ -37,7 +37,7 @@ USAGE
   $ m30pm help [COMMAND...] [-n]
 
 ARGUMENTS
-  [COMMAND...]  Command to show help for.
+  COMMAND...  Command to show help for.
 
 FLAGS
   -n, --nested-commands  Include all nested commands in the output.
@@ -86,5 +86,5 @@ EXAMPLES
     $ m30pm project create my-project -V "0.0.0" -d "My New m30ml Project" -a "Mach 30" -l "CC-BY-4.0" -p "npm"
 ```
 
-_See code: [src/commands/project/create.ts](https://github.com/dof-initiative/m30pm/blob/v0.2.0-alpha.9/src/commands/project/create.ts)_
+_See code: [src/commands/project/create.ts](https://github.com/dof-initiative/m30pm/blob/v0.2.0-alpha.10/src/commands/project/create.ts)_
 <!-- commandsstop -->
