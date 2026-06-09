@@ -61,8 +61,8 @@ jobs:
           npm run buildAll
           if [[ $BASENAME =~ $SEMVER_REGEX ]]; then
             TAG_FLAG_STRING="" 
-            if [[$BASENAME =~ SEMVER_PRERELEASE_REGEX]]; then
-              TAG_FLAG_STRING=" --tag " ${BASH_REMATCH[1]}
+            if [[ $BASENAME =~ $SEMVER_PRERELEASE_REGEX ]]; then
+              TAG_FLAG_STRING=" --tag ${BASH_REMATCH[1]}"
             fi  
             if [[ $GIT_REF_COMMIT == $GIT_MAIN_COMMIT ]]; then
               echo "Publishing $BASENAME to npmjs.org"
