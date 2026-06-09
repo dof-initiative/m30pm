@@ -55,7 +55,7 @@ jobs:
           BASENAME=$(basename "$GITHUB_REF") # The only line you need
           echo "This basename is: ($BASENAME)"
           SEMVER_REGEX="v[0-9]+.[0-9]+.[0-9]+*"
-          SEMVER_PRERELEASE_REGEX="/alpha|beta|rc/gm"
+          SEMVER_PRERELEASE_REGEX="alpha|beta|rc"
           echo "Building m30pm..."
           npm i
           npm run buildAll
