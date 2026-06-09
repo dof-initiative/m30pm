@@ -69,7 +69,8 @@ jobs:
             if [[ $GIT_REF_COMMIT == $GIT_MAIN_COMMIT ]]; then
               echo "Publishing $BASENAME to npmjs.org"
               cd packages/@dof-initiative/m30pm-lib-common
-              if [[ $(npm view @dof-initiative/m30pm-lib-common --json | yq -r '.dist-tags.latest') != $(cat package.json | yq -r '.version') ]]; then
+              NEW_VERSION=$(cat package.json | yq -r '.version')
+              if [[ $(npm view @dof-initiative/m30pm-lib-common --json | yq contains([\"$NEW_VERSION\"])) != true ]]; then
                 npm publish --access public $TAG_FLAG_STRING
               fi
               cd ../m30pm-lib-fs
