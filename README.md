@@ -3,7 +3,7 @@ m30pm
 
 Mach 30 package manager for m30ml projects
 
-[![GitHub license](https://img.shields.io/github/license/Mach30/m30pm)](https://github.com/Mach30/m30pm/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/dof-initiative/m30pm)](https://github.com/dof-initiative/m30pm/blob/main/LICENSE)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -37,7 +37,7 @@ USAGE
   $ m30pm help [COMMAND...] [-n]
 
 ARGUMENTS
-  COMMAND...  Command to show help for.
+  [COMMAND...]  Command to show help for.
 
 FLAGS
   -n, --nested-commands  Include all nested commands in the output.
@@ -86,5 +86,5 @@ EXAMPLES
     $ m30pm project create my-project -V "0.0.0" -d "My New m30ml Project" -a "Mach 30" -l "CC-BY-4.0" -p "npm"
 ```
 
-_See code: [src/commands/project/create.ts](https://github.com/Mach30/m30pm/blob/v0.2.0-alpha.9/src/commands/project/create.ts)_
+_See code: [src/commands/project/create.ts](https://github.com/dof-initiative/m30pm/blob/v0.2.0-alpha.9/src/commands/project/create.ts)_
 <!-- commandsstop -->

@@ -44,7 +44,7 @@
     "/oclif.manifest.json",
     "/packages"
   ],
-  "homepage": "https://github.com/Mach30/m30pm",
+  "homepage": "https://github.com/dof-initiative/m30pm",
   "license": "Apache-2.0",
   "name": "m30pm",
   "workspaces": [
@@ -64,7 +64,7 @@
       }
     }
   },
-  "repository": "https://github.com/Mach30/m30pm",
+  "repository": "https://github.com/dof-initiative/m30pm",
   "scripts": {
     "clean": "shx rm -rf dist",
     "build": "npm run clean && tsc -b --force",
@@ -78,7 +78,7 @@
     "postversion": "git push && git push --tags"
   },
   "version": "0.2.0-alpha.9",
-  "bugs": "https://github.com/Mach30/m30pm/issues",
+  "bugs": "https://github.com/dof-initiative/m30pm/issues",
   "keywords": [
     "oclif"
   ],
