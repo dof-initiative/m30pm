@@ -74,11 +74,13 @@ jobs:
                 npm publish --access public $TAG_FLAG_STRING
               fi
               cd ../m30pm-lib-fs
-              if [[ $(npm view @dof-initiative/m30pm-lib-fs --json | yq -r '.dist-tags.latest') != $(cat package.json | yq -r '.version') ]]; then
+              NEW_VERSION=$(cat package.json | yq -r '.version')
+              if [[ ! -z $(npm view @dof-initiative/m30pm-lib-common --json | yq -r '.versions' | grep -v $NEW_VERSION) ]]; then
                 npm publish --access public $TAG_FLAG_STRING
               fi
               cd ../m30pm-lib-cli
-              if [[ $(npm view @dof-initiative/m30pm-lib-cli --json | yq -r '.dist-tags.latest') != $(cat package.json | yq -r '.version') ]]; then
+              NEW_VERSION=$(cat package.json | yq -r '.version')
+              if [[ ! -z $(npm view @dof-initiative/m30pm-lib-common --json | yq -r '.versions' | grep -v $NEW_VERSION) ]]; then
                 npm publish --access public $TAG_FLAG_STRING
               fi
               cd ../../..
