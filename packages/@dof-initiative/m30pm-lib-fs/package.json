@@ -1,6 +1,6 @@
 {
   "name": "@dof-initiative/m30pm-lib-fs",
-  "version": "0.2.0-alpha.0",
+  "version": "0.2.0-beta.0",
   "description": "Mach 30 PM filesystem implementation library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,7 +22,7 @@
     "directory": "packages/@dof-initiative/m30pm-lib-fs"
   },
   "dependencies": {
-    "@dof-initiative/m30pm-lib-common": "^0.2.0-alpha.0",
+    "@dof-initiative/m30pm-lib-common": "^0.2.0-beta.0",
     "@types/shelljs": "^0.8.15",
     "js-yaml": "^4.1.0",
     "moment": "^2.30.1",
