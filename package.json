@@ -77,7 +77,7 @@
     "version": "npm run buildAll && oclif readme && git add README.md",
     "postversion": "git push && git push --tags"
   },
-  "version": "0.2.0-beta.0",
+  "version": "0.2.0-rc.0",
   "bugs": "https://github.com/dof-initiative/m30pm/issues",
   "keywords": [
     "oclif"
