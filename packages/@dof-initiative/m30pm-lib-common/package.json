@@ -1,6 +1,6 @@
 {
   "name": "@dof-initiative/m30pm-lib-common",
-  "version": "0.2.0-beta.0",
+  "version": "0.2.0-rc.0",
   "description": "Mach 30 PM common functions library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
